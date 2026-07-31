@@ -176,10 +176,11 @@
   /* closing */
   .closing{padding:74px 0 44px; border-top:1px solid var(--line); text-align:left}
   .closing .big{
-    font-size:clamp(24px,4.2vw,32px); line-height:1.45; letter-spacing:-.015em; font-weight:560;
-    max-width:26ch; text-wrap:balance;
+    font-size:clamp(23px,3.9vw,31px); line-height:1.55; letter-spacing:-.01em; font-weight:560;
+    max-width:min(100%,33ch); text-wrap:pretty; line-break:strict; word-break:normal; overflow-wrap:normal;
   }
-  .closing .big .em{color:var(--accent-ink)}
+  .closing .big .em{color:var(--accent-ink); white-space:nowrap}
+  .closing .big .keep{white-space:nowrap}
   .closing .foot{margin-top:44px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; color:var(--faint); font-size:13.5px}
   .closing .foot .dot-sep{color:var(--line-strong)}
 
@@ -224,7 +225,7 @@
     <div class="hero-meta reveal">
       <span class="chip"><span class="num">6/29 – 7/31</span></span>
       <span class="chip">小天使　<b>雪倫</b></span>
-      <span class="chip">主軸　<b>學習 · 營銷業務</b></span>
+      <span class="chip">主軸　<b>學習 · 企服業務</b></span>
     </div>
   </div>
 </header>
@@ -298,7 +299,7 @@
       <div class="cell reveal">
         <div class="cell-top"><span class="cell-name">網址功能</span><span class="tag neutral">待累積</span></div>
         <p class="cell-note">系統建置較完整；原本對這塊較不熟，需要靠經驗慢慢累積。</p>
-        <div class="rating"><span class="dots" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span><span class="rlab">熟悉度 3 / 5</span></div>
+        <div class="rating"><span class="dots" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span><span class="rlab">熟悉度 2 / 5</span></div>
       </div>
 
       <div class="cell reveal">
@@ -310,7 +311,7 @@
       <div class="cell reveal">
         <div class="cell-top"><span class="cell-name">活動模組</span><span class="tag warm">大魔王</span></div>
         <p class="cell-note">目前最有挑戰的一關；小雪的廳主提問較少，多數靠題目反覆練習。</p>
-        <div class="rating"><span class="dots" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span><span class="rlab">熟悉度 2 / 5</span></div>
+        <div class="rating"><span class="dots" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span><span class="rlab">熟悉度 3 / 5</span></div>
       </div>
 
       <div class="cell reveal">
@@ -324,8 +325,8 @@
 
 <section class="closing">
   <div class="wrap">
-    <p class="kicker reveal">心態與展望</p>
-    <p class="big reveal">對後續安排，難免擔心自己是否合適、能否勝任；但現階段，我選擇把<span class="em">學習與營銷業務</span>放在第一位 — 先把事做好，其餘不多想。</p>
+    <p class="kicker reveal">本月心態與展望</p>
+    <p class="big reveal">對於後續職務安排，難免擔心自己是否合適、能否勝任；但現階段，我會把<span class="em">學習與營銷業務</span>放在<span class="keep">第一位</span> — <span class="keep">先把事做好</span>，其餘不多想。</p>
     <div class="foot reveal">
       <span>企服實習 · 學習月報</span>
       <span class="num">2026 / 07</span>
